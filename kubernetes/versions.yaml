@@ -1,0 +1,3 @@
+app_py:
+  image_name: docker.io/wizzzuveye/demo_image
+  image_version: 94

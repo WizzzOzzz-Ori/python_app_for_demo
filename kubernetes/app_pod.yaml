@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: python-app-pod
+  namespace: jenkins-agents    # Ensure the pod is in the correct namespace
+spec:
+  containers:
+  - name: python-app-container
+    image: docker.io/${image_name}:${image_version}   # The image specified for the Python app
+
