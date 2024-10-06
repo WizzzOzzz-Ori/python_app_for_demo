@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: python-app-pod
-  namespace: jenkins-agents    # Ensure the pod is in the correct namespace
+  namespace: jenkins-test   # Ensure the pod is in the correct namespace
 spec:
   containers:
   - name: python-app-container
